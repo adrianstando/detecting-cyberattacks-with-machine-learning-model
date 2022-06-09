@@ -12,6 +12,8 @@ Aplikacja zawiera kod aplikacji CICflowmeter ze strony: https://gitlab.com/hieul
 
 W każdym z folderów znajduje się plik `requirements.txt`, który zawiera listę wymaganych bibliotek. Aby stworzyć wirtualne środwisko, wystarczy wywołać skrypt znajdujący się w pliku `create_environment`.
 
+Z powodu ograniczonego miejsca na GitHubie, w plikach programu nie znajduje się wytrenowany model. Oryginalnie, po wytrenowaniu i zapisaniu modelu przy pomocy biblioteki `pickle`, plik z modelem został przeniesiony do folderu `./aplikacja/model_files/`.
+
 ## Uruchomienie aplikacji okienkowej
 
 Aplikacja okienkowa została przetestowana i działa poprawnie na systemie Ubuntu.
